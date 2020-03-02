@@ -45,15 +45,9 @@
 .locations div:hover{
     background-color: #FF5A5F;
 }
-.locations:hover{
-    cursor: pointer;
-    background-color: #d9c7ca;
-    color: #ffffff;
 
-}
 .locations:hover ul{
     visibility: visible;
-    display: block;
     color: black;
 }
 .locations h3{
@@ -69,26 +63,21 @@
     padding-left: 30px;
 }
 
-.amenities {
+div.amenities {
     height: 100%;
     width: 25%;
     color: black;
     padding-left: 0px;
 }
-.amenities:hover{
-    cursor: pointer;
-    background-color: #d9c7ca;
-    color: white;
-}
-.amenities:hover ul{
+
+div.amenities:hover ul{
     visibility: visible;
-    display: block;
     color: black;
 }
 
 ul.popover{
     width: 100%;
-    display: none;
+    visibility: collapse;
     background-color:#FAFAFA;
     border: #DDDDDD;
     border-style: solid;
