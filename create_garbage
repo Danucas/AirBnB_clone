@@ -1,0 +1,10 @@
+#!/bin/bash
+pos=0
+while [ "$pos" != "50" ]
+do
+    echo "." >> grb/garbage
+    git add grb/garbage
+    git commit -m "Adding garbage"
+    git push origin master
+    pos=$(( $pos + 1 ))
+done

@@ -1,0 +1,108 @@
+.places h1{
+    font-size: 30px;
+    width: 100%;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.places{
+    text-align: center;
+    box-sizing: content-box;
+    display: table;
+    border-collapse: separate;
+}
+
+.places article{
+    display: inline-table;
+    min-width: 390px;
+    max-width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F;
+    border-width: 1px;
+    border-radius: 4px;
+    position: relative;
+    border-style: solid;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+
+}
+
+.places h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.price_by_night{
+    color: #FF5A5F;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    border: #FF5A5F solid 4px;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 2.5%;
+    top: 15px;
+}
+.information{
+    height: 80px;
+    border-top: #DDDDDD 1px solid;
+    border-bottom: #DDDDDD 1px solid;
+    margin-top: 30px;
+    align-content: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.max_guest{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    background-image: url("/images/icon_group.png");
+    background-size:uset;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 46px;
+    box-sizing: border-box;
+}
+
+.number_rooms{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    background-image: url("/images/icon_bed.png");
+    background-size: unset;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 46px; 
+    box-sizing: border-box;  
+}
+
+.number_bathrooms{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    background-image: url("/images/icon_bath.png");
+    background-size: unset;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding-top: 46px;
+    box-sizing: border-box;
+}
+
+
+.user{
+    margin-top: 15px;
+    text-align: justify;
+}
+.description{
+    text-align: justify;
+    a
+}
